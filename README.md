@@ -8,6 +8,10 @@ Install Groovy (Windows)
 
 * http://www.groovy-lang.org/download.html
 
+Run Geb Script Locally
+
+    groovy localGebTest.groovy
+
 Run Docker Compose
 
     docker-compose up selenium
@@ -18,5 +22,6 @@ Open VNC
 
 Run Geb Script
 
-    groovy localGebTest.groovy
     groovy gebTest.groovy
+
+
