@@ -4,7 +4,15 @@ Install Groovy
     source "$HOME/.sdkman/bin/sdkman-init.sh"
     sdk install groovy
 
-Run
+Run Docker Compose
+
+    docker-compose up selenium
+
+Open VNC
+
+    vnc://192.168.99.100:5900/
+
+Run Geb Script
 
     groovy localGebTest.groovy
     groovy gebTest.groovy
